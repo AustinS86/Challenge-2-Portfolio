@@ -1,0 +1,92 @@
+* {
+    background-color: slategray;
+}
+
+header h1 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+.remy {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+header nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fcc-btn{
+    background-color: darkgrey;
+    color: navy;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.shadow{
+    text-shadow: 5px 5px 10px 10px black;
+}
+
+.fcc-btn:hover{
+    background-color: darkslategrey;
+}
+
+a{
+    border-style: 2px solid blue;
+    box-shadow: 
+}
+
+.about-me {
+    float: left;
+    margin-bottom: 50px;
+}
+
+.work-box{
+    border: solid black;
+    float: left;
+    background-color: rgb(8, 0, 0);
+    width:50px;
+    height: 100px;
+    padding: 50px 50px;
+    
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font size: 15px;
+    
+
+}
+
+.contact{
+    text-align:left;
+    display: block;
+}
+
+.links{
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+
+   
+}
+
+@media screen and (max-width: 750px) {
+
+    header,
+    nav {
+        flex-direction: column;
+    }
