@@ -17,4 +17,4 @@ What did I include in my Porfolio?
 ## Github Link
 
 
-![Screenshot](assets\images\127.0.0.1_5500_index.html.png)
+![Screenshot](assets\images\Portfolio-homepage.html.png)
