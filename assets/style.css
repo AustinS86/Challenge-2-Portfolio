@@ -19,7 +19,7 @@ body {
     border-radius: 250px;
 }
 
-header nav {
+.header nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     padding-left: 100px;
@@ -29,8 +29,8 @@ header nav {
     align-items: center;
     justify-content: space-between;
     justify-content: center;
-
 }
+
 
 .fcc-btn {
     background-color: darkgrey;
@@ -59,13 +59,20 @@ h1 {
     font-size: 30px;
 }
 
+.about-me,
+.work,
+.resume,
+.contact {
+    flex: 1 0 0;
+
+}
+
 #about-me {
     background-color: lightgray;
     font-weight: bold;
     padding: 25px;
     border: 35px solid navy;
     border-radius: 10px;
-    margin: px;
     margin-right: 100px;
     height: fit-content;
     width: 1000px;
@@ -95,9 +102,8 @@ h1 {
     height: 400px;
     width: 1000px;
     border-radius: 10px;
-    position: relative;
     left: 300px;
-
+    position: relative;
 }
 
 #work img {
@@ -109,14 +115,14 @@ h1 {
     border-radius: 10px;
 }
 
-.title{
+.title {
     position: absolute;
     text-align: center;
     color: white;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 
 }
@@ -136,7 +142,7 @@ h1 {
     max-height: 200px;
     float: right;
     padding-top: 5px;
-    padding-right: 300px;
+    padding-right: 150px;
     margin-right: 50px;
     margin-left: 25x;
     margin-bottom: 50px;
@@ -165,9 +171,80 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width: 750px) {
+.footer {
+    text-align: center;
+}
 
-    header,
-    nav {
+@media screen and (max-width: 768px) {
+
+    .header,
+    nav,
+    #about-me,
+    #resume,
+    #contact,
+    .links,
+    footer {
         flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        padding-right: 125px;
+        padding-left: 100px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    #work {
+        flex-direction: column;
+        padding-right: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        position: sticky;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        position: relative;
+        padding-right: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .header,
+    .links,
+    nav,
+    footer,
+    #about-me,
+    #resume,
+    #contact {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        padding-right: 125px;
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #work {
+        flex-direction: column;
+        padding-right: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        position: sticky;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .title {
+        position: relative;
+        padding-right: 200px;
+    }
+}
