@@ -14,7 +14,9 @@ What did I include in my Porfolio?
 - I have a "Resume" section that I plan on adding a downloadable link to my resume for any future employer. I currently have placeholder for my Linkedin page.
 - In my "Contact" section I added links for my email, phone number, Github and my Linkedin. You can use these to contact me at anytime.
 
-## Github Link
+## Portfoilio Link
+- https://austins86.github.io/Personal-Portfolio/
 
 
-![Screenshot](assets\images\Personal-Portfolio_index.html.png)
+
+![Screenshot](https://github.com/AustinS86/Personal-Portfolio/blob/main/assets/images/Personal-Portfolio_index.html.png)
