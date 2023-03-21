@@ -5,66 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets\style.css" href="assets\images.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.17/dist/tailwind.min.css" rel="stylesheet">
     <title>Austin Stancil Portfolio</title>
 </head>
 
-<body>
-    <header class="header">
-        <h1>Austin Stancil Portfolio</h1>
-        <nav>
-            <a class="fcc-btn" href="#about-me">About Me</a>
-            <a class="fcc-btn" href="#work">Work</a>
-            <img src="assets\images\Remy.jpg" class="remy" alt="My yellow lab Remy chewing on a stick on my lap">
+<body class="bg-gray-400 font-mono">
+    <div class="min-h-screen bg-gradient-to-br from-blue-600 via-emerald-700 to-green-500 opacity-95">
+        <header class="text-white p-4 text-center">
+            <h1 class=" text-3xl font-bold">Austin Stancil Portfolio</h1>
+            <div class="flex justify-center mt-2">
+                <img src="assets\images\Remy.jpg" class="remy w-64 h-64 object-cover rounded-2xl"
+                    alt="My yellow lab Remy chewing on a stick on my lap">
+            </div>
+            <nav class="flex space-x-4 mt-2 justify-center">
+                <a href="#about-me" class="bg-blue-200 text-black p-2 rounded">About Me</a>
+                <a href="#work" class="bg-blue-200 text-black p-2 rounded">Work</a>
+                <a href="#resume" class="bg-blue-200 text-black p-2 rounded">Resume</a>
+                <a href="#contact" class="bg-blue-200 text-black p-2 rounded">Contact</a>
+            </nav>
+        </header>
+        <main class="container mx-auto mt-10 text-white">
+            <section id="about-me" class="mb-10">
+                <img src="assets\images\starwars.jpg" alt="myself drinking blue milk at galaxy's edge"
+                    class="w-64 h-64 object-cover rounded-2xl">
+                <h1 class="text-4xl mt-4 font-bold">About Me</h1>
+                <p class="mt-4 text-white-700">
+                    Hello! I'm Austin, and I live in Connecticut with my wonderful wife, Sarah, and our energetic
+                    2-year-old yellow lab, Remy Alfredo. I have a wide range of hobbies that include watching movies,
+                    playing video games, participating in sports, hiking with Remy, and exploring new places. My wife
+                    and I especially love traveling to Disney World together to create cherished memories.
+
+                    In my professional life, I currently work at Whole Foods Market as a Store Receiver, where I handle
+                    various programs such as DVO, Peoplesoft, and IRMA. However, I've recently decided to shift gears in
+                    my career and enrolled in a Coding Bootcamp for Web Development. My goal is to break into the
+                    exciting field of web development, which will allow me to grow professionally and enhance my career
+                    prospects. I'm excited about this new chapter in my life and eager to tackle the challenges ahead!
+                </p>
             </section>
-            <a class="fcc-btn" href="#resume">Resume</a>
-            <a class="fcc-btn" href="#contact">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section id="about-me">
-            <img src="assets\images\starwars.jpg" alt="myself drinking blue milk at galaxy's edge">
-            <h1>About Me</h1>
-            <p> Hey, My name is Austin. I live in CT with my wife Sarah and 2yr old 110 pound yellow lab Remy Alfredo. I
-                enjoy movies, gaming, sports,
-                hiking with Remy, traveling and going to Disney world with my wife.
-                I currently work at Whole Foods Market as the Store Receiver. I work with the following programs: DVO,
-                Peoplesoft, IRMA. I deceided to go a different direction in my career so
-                enrolled in a Coding Bootcamp for Web Development in hopes to break into a new field and change my
-                career for the better!
-            </p>
-        </section>
+            <section id="work" class="mb-10">
+                <h1 class="text-4xl mb-4 font-bold">Projects & Challenges</h1>
+                <div class="flex flex-wrap space-x-4 space-y-4 lg:space-x-20 lg:space-y-0">
+                    <a target="_blank" href="https://github.com/AustinS86/Challenge-Week-1-Accessibility">
+                        <figcaption class="title text-xl font-bold">Challenge-Accessibility</figcaption>
+                        <img src="assets\images\pexels-pixabay-256502.jpg" class="w-64 h-64 object-cover rounded-2xl">
+                    </a>
+                    <a target="_blank" href="https://sampaul10.github.io/Project-01/">
+                        <figcaption class="title text-xl font-bold">Pear'd</figcaption>
+                        <img src="./assets/images/spaghetti-1932466_1920 (1).jpg"
+                            class="w-64 h-64 object-cover rounded-2xl">
+                    </a>
+                    <a target="_blank" href="https://murmuring-escarpment-43025.herokuapp.com/">
+                        <figcaption class="title text-xl font-bold">TotoroBank</figcaption>
+                        <img src="./assets/images/totoro-bw.png" class="w-64 h-64 object-cover rounded-2xl">
+                    </a>
+                </div>
+            </section>
 
-        <section id="work">
-            <a target="_blank" href="https://github.com/AustinS86/Challenge-Week-1-Accessibility">
-                <figcaption class="title">Challenge-Week-1-Accessibility</figcaption>
-                <img src="assets\images\pexels-pixabay-256502.jpg">
-            </a>
-            <h1>Work</h1>
-        </section>
-
-        <section id="resume">
-            <a target="_blank" href="https://www.linkedin.com/in/austin-stancil-00029480">
-                <img src="assets\images\pexels-cottonbro-studio-3843282.jpg" alt=" coming soon sign"></a>
-            <h1>Resume</h1>
-        </section>
-
-        <section id="contact" class="contact" alt="contact">
-            <h1>Contact</h1>
-        </section>
-        <section class="links">
-            <h3><a class="fcc-btn" href="austin.stancil@yahoo.com" alt="email">austin.stancil@yahoo.com</a></h3>
-            <h3><a class="fcc-btn" href=" tel:+813-408-2348" alt="phone number">813-408-2348</a></h3>
-            <h3><a class="fcc-btn" href="https://github.com/AustinS86" alt="Github">Github</a></h3>
-            <h3><a class="fcc-btn" href="https://www.linkedin.com/in/austin-stancil-00029480"
-                    alt="Linkedin">Linkedin</a>
-            </h3>
-        </section>
-    </main>
-    <footer class="footer">
-        <h1>Thank You for Visting!</h1>
-    </footer>
-
+            <section id="resume" class="mb-10">
+                <h1 class="text-4xl mt-4 font-bold">Resume</h1>
+                <a target="_blank" href="https://www.linkedin.com/in/austin-stancil-00029480">
+                    <img src="./assets/images/Wyoming.jpg" alt="coming soon sign"
+                        class="w-64 h-64 object-cover rounded-2xl">
+                </a>
+            </section>
+            <section id="contact" class="contact mb-10">
+                <h1 class="text-4xl font-bold">Contact</h>
+            </section>
+            <section class="links grid grid-cols-3 gap-1 text-center">
+                <h3><a href="mailto:austin.stancil@yahoo.com" class="bg-blue-200 text-black font-bold  p-2 rounded"
+                        alt="email">austin.stancil@yahoo.com</a></h3>
+                <h3><a href="https://github.com/AustinS86" class="bg-blue-200 text-black font-bold p-2 rounded"
+                        alt="Github">Github</a>
+                </h3>
+                <h3><a href="https://www.linkedin.com/in/austin-stancil-00029480"
+                        class="bg-blue-200 text-black font-bold p-2 rounded" alt="Linkedin">Linkedin</a></h3>
+            </section>
+        </main>
+        <footer class="text-white text-center font-bold p-4 mt-10">
+            <h1 class="text-2xl">Thank You for Visiting!</h1>
+        </footer>
+    </div>
 </body>
 
 </html>
