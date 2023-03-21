@@ -19,4 +19,4 @@ What did I include in my Porfolio?
 
 
 
-![screenshot](https://user-images.githubusercontent.com/117120566/226658144-eb144926-d171-404e-a4ab-2c774b50dcb7.png)
+![portfolio](https://user-images.githubusercontent.com/117120566/226688000-9fe0b30d-939d-4e29-8490-381344e67c91.gif)
