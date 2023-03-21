@@ -19,4 +19,4 @@ What did I include in my Porfolio?
 
 
 
-![Screenshot](https://github.com/AustinS86/Personal-Portfolio/blob/main/assets/images/Personal-Portfolio_index.html.png)
+![screenshot](https://user-images.githubusercontent.com/117120566/226658144-eb144926-d171-404e-a4ab-2c774b50dcb7.png)
